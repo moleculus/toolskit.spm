@@ -9,6 +9,10 @@ public class Countdown {
     private var seconds: Int?
     private var secondsPassed: Int = 0
     private var startDate: Date?
+    
+    // MARK: - Initialization.
+    
+    public init() {}
 
     // MARK: - Public Methods.
 
